@@ -1,8 +1,8 @@
 class KonyvModel {
     #konyvekTomb = [];
-
+    #token;
     constructor(token) {
-        this.token = token
+        this.#token = token
 
         console.log("KonyvModel");
     }

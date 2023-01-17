@@ -18,7 +18,7 @@ class KonyvView {
     console.log(this.sorElem)
         
     //gombok eseménykezelői 
-    this.cimElem = $(``)
+    this.cimElem = $(elem.keszleten-1)
     this.modositElem =$(`#mod${elem.id}`);
     this.torolElem =$(`#del${elem.id}`);
 
